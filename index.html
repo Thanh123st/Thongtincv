@@ -1,255 +1,95 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Trang cá nhân của Thanh</title>
-        <meta charset="utf-8">
-        <style>
-            :root{
-                --text-weidht: 150px;
-            }
-            body {
-                background-image: url('https://tse1.mm.bing.net/th?id=OIP.5bRaHgfOfxNIGpQmaYXVFAHaEo&pid=Api&P=0&h=180'); /* Đường dẫn đến ảnh nền */
-                background-repeat: no-repeat; /* Không lặp lại ảnh nền */
-                background-size: cover; /* Ảnh nền bao phủ toàn bộ trang */
-            }
-            #fb{
-                width: var(--text-weidht);
-                position: absolute;
-                top: 100px; /* Khoảng cách từ đỉnh trang */
-                left: 100px; /* Khoảng cách từ bên trái trang */
-                
-            }
-            #ig{
-                width: var(--text-weidht);
-                position: absolute;
-                top: 300px; /* Khoảng cách từ đỉnh trang */
-                left: 100px; /* Khoảng cách từ bên trái trang */
-            }
-            #tk{
-                width: 250px;                
-                position: absolute;
-                top: 500px; /* Khoảng cách từ đỉnh trang */
-                left: 47px; /* Khoảng cách từ bên trái trang */
-            }
-            a{
-                
-                position: absolute;
-                left: 130px; /* Khoảng cách từ bên trái trang */
-            }
-            #chufb{
-                position: absolute;
-                top: 259px; /* Khoảng cách từ bên trái trang */
-            }
-            #chuig{
-                position: absolute;
-                top: 459px; /* Khoảng cách từ bên trái trang */
-            }
-            #chutk{
-                position: absolute;
-                top: 670px; /* Khoảng cách từ bên trái trang */
-                left: 140px;
-            }
-            h1{
-                text-align: center;
-            }
-            h3{
-                position: relative;
-                left: 400px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
-            }
-            p{
-                position: relative;
-                left: 380px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
-            }
-            ul{
-                position: relative;
-                left: 380px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
-            }
-            #bang{
-                position: relative;
-                left: 380px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
-                text-align: center;
-            }
-            table,th,td{
-                border: 1px;
-                border-style: solid;
-                border-color: brown;
-            }
-            #namebang{
-                position: relative;
-                left: 380px;
-                margin: 10px;
-                padding: 5px;
-                right: 3%;
-                background-color: aqua;
-                width: 150px;
-                border: 2px;
-                border-color:black;
-                border-style: solid;
-            }
-            #button{
-                position: fixed;
-                left:1353px;
-                top: 17px;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>Thông tin chung</h1>
-        <h3>MSSV:KTPM2211018</h3>
-        <h3>Class:KTPM2211</h3>
-        <h3>Date:10/08/2004</h3>
-        <h3>Nơi sinh:Sóc Trăng</h3>
-        <p>Hello xin chào tất cả mọi người mình tên là Thanh, ngiu mình là Linh.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        div{
+            float: left;
+            height: 965px;
+            padding: 20px;
+            padding-right: 30px;
+        }
+        #tt{
+            position: relative;
+            left: 220px;
+            background-color: aquamarine;
+            width: 210px;
+            
+            
+        }
+        #ttchinh{
+            position: relative;
+            left: 220px;
+            background-color: rgb(200, 241, 241);
+            width: 450px;
+            padding-left: 30px;
+            
+        }
+        #pic{
+            border-radius: 50%;
+            border: 2px solid;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="tt">
+        <img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t39.30808-1/437763616_122093537978289727_5215775961374652097_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dNQOZ-WEVUMQ7kNvgGJ_0Jb&_nc_ht=scontent.fvca1-1.fna&oh=00_AYA8fmubzrpMxr3ADV5YA7CBVwRKBKDgcG00MYG5bBBDpg&oe=66759089" alt="" id="pic">
+        <h3 style="font-size: 130%;">Nguyễn Hoàng Thanh</h3>
+        <h2>CONTACT</h2>
         <ul>
-            <li>Chiều cao:1m74</li>
-            <li>Cân nặng:60kg</li>
+            <li>Address: Xóm chùa ba láng, khu Thạnh Trị, New York, TP Cần Thơ</li>
+            <li>Phone number: 0949623766</li>
+            <li>Email: @gmail.com</li>
         </ul>
-        <img src="http://3.bp.blogspot.com/-KNqO9JuXUN8/Ti2b1LHRquI/AAAAAAAAAIU/L6k8Wlzxj9k/s1600/logo_facebook.png" alt="facebook_logo" id="fb">
-        <a id="chufb" href="https://www.facebook.com/profile.php?id=100013035127126">Tới facebook</a>
-
-        <img src="https://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="" id="ig">
-        <a id="chuig" href="https://www.instagram.com/nguyen_thanh_j/">Tới instagram</a>
-
-        <img src="https://1.bp.blogspot.com/-KjRsM8b2114/X1en1SujmBI/AAAAAAAAAVI/Z9n6gAnrvS0ZGSukMsgwymlid0_EhAHUQCLcBGAsYHQ/s2048/tiktok%2Blogo%2B2.png" alt="" id="tk">
-        <a id="chutk" href="https://www.tiktok.com/@thanhnt83st">Tới tiktok</a>
-        <h3>Bảng điểm</h3>
-        
-        <div>
-            <details>
-                <summary id="namebang">Kết quả học kỳ I</summary>
-                <table id="bang">
-                    <tr>
-                        <th>Môn</th>
-                        <th>Giữa kỳ</th>
-                        <th>Cuối kỳ</th>
-                        <th>Tổng kết</th>
-                        <th>Thang 4</th>
-                        <th>Điểm chử</th>
-                    </tr>
-                    <tr>
-                        <td>Anh văn căn bản 1</td>
-                        <td>8,2</td>
-                        <td>8,1</td>
-                        <td>8,1</td>
-                        <td>3,5</td>
-                        <td>B+</td>
-                    </tr>
-                    <tr>
-                        <td>Đại số tuyến tính</td>
-                        <td>9,5</td>
-                        <td>6,7</td>
-                        <td>8,1</td>
-                        <td>3,5</td>
-                        <td>B+</td>
-                    </tr>
-                    <tr>
-                        <td>Giải tích 1</td>
-                        <td>10</td>
-                        <td>6</td>
-                        <td>8</td>
-                        <td>3,5</td>
-                        <td>B+</td>
-                    </tr>
-                    <tr>
-                        <td>Ngôn ngữ lập trình 1</td>
-                        <td>10</td>
-                        <td>6,6</td>
-                        <td>8</td>
-                        <td>3,5</td>
-                        <td>B+</td>
-                    </tr>
-                    <tr>
-                        <td>Nhập môn công nghệ phần mềm</td>
-                        <td>8,5</td>
-                        <td>8,5</td>
-                        <td>8,5</td>
-                        <td>3,8</td>
-                        <td>A</td>
-                    </tr>
-                    <tr>
-                        <td>Triết học Mác - Lênin</td>
-                        <td>8,6</td>
-                        <td>6,5</td>
-                        <td>7,3</td>
-                        <td>3</td>
-                        <td>B</td>
-                    </tr>
-                </table>
-            </details>
-        </div>
-        <div>
-            <details>
-                <summary id="namebang">Kết quả học kỳ II</summary>
-                <table id="bang">
-                    <tr>
-                        <th>Môn</th>
-                        <th>Giữa kỳ</th>
-                        <th>Cuối kỳ</th>
-                        <th>Tổng kết</th>
-                        <th>Thang 4</th>
-                        <th>Điểm chử</th>
-                    </tr>
-                    <tr>
-                        <td>Pháp luật đại cương</td>
-                        <td>9,2</td>
-                        <td>6,8</td>
-                        <td>7,8</td>
-                        <td>3</td>
-                        <td>B</td>
-                    </tr>
-                    <tr>
-                        <td>Kỹ thuật lập trình</td>
-                        <td>8,8</td>
-                        <td>6,8</td>
-                        <td>7,6</td>
-                        <td>3</td>
-                        <td>B</td>
-                    </tr>
-                    <tr>
-                        <td>Anh văn căn bản 2</td>
-                        <td>9</td>
-                        <td>5,8</td>
-                        <td>7,1</td>
-                        <td>3</td>
-                        <td>B</td>
-                    </tr>
-                    <tr>
-                        <td>Giải tích 2</td>
-                        <td>7,5</td>
-                        <td>6</td>
-                        <td>6,8</td>
-                        <td>2,5</td>
-                        <td>C+</td>
-                    </tr>
-                    <tr>
-                        <td>Kinh tế chính trị Mác - Lênin</td>
-                        <td>8</td>
-                        <td>7</td>
-                        <td>7,4</td>
-                        <td>3</td>
-                        <td>B</td>
-                    </tr>
-                    <tr>
-                        <td>Đổi mới sáng tạo và khởi nghiệp</td>
-                        <td>9,9</td>
-                        <td>9</td>
-                        <td>9,4</td>
-                        <td>3,8</td>
-                        <td>A</td>
-                    </tr>
-                    <tr>
-                        <td>Ngôn ngữ lập trình 2</td>
-                        <td>9</td>
-                        <td>7,5</td>
-                        <td>8,1</td>
-                        <td>3,5</td>
-                        <td>B+</td>
-                    </tr>
-                </table>
-            </details>
-        </div>
-        <a href="file:///D:/L%E1%BA%ADp%20tr%C3%ACnh%20Web/Thongtincanhan.html"><input type="button" value="Nhấn vào đây" id="button" /></a>
-        
-    </body>
+        <h2>SUMARY</h2>
+        <p>I am a motivated IT professional with a strong background in computer science and proven experience at FPT Corporation and Apple Inc. I specialize in [mention specific areas or technologies], bringing a blend of technical expertise and innovative thinking to deliver impactful solutions. I thrive in dynamic environments where I can contribute my skills to drive meaningful projects forward.</p>
+        <h2>SKILL</h2>
+        <p>Communication</p>
+        <p>Confidence</p>
+        <p>Problem-solving</p>
+        <p>Time management</p>
+        <p>Soft</p>
+    </div>
+    <div id="ttchinh">
+        <h2>PROFESSIONAL PROFILE</h2>
+        <p>Talented and proactive Computer Science student with a passion for innovation and technology. Proficient in programming languages such as [mention relevant languages], with a solid understanding of software development principles and methodologies. Adept at problem-solving and collaborating in team environments to deliver impactful solutions. Known for strong analytical skills and a quick grasp of new technologies, poised to contribute effectively to future technological advancements.</p>
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <h3>
+            SOFTWARE ENGINEER
+            FPT CORPORATION, 2020 - 2022
+        </h3>
+        <ul>
+            <li>Spearheaded development projects leveraging [specific technologies or frameworks], contributing to [specific achievements or milestones].</li>
+            <li>Collaborated closely with cross-functional teams to design and implement robust software solutions.</li>
+            <li>Led the optimization of [specific processes or systems], resulting in [quantifiable improvements].</li>
+            <li>Acquired proficiency in Agile methodologies and streamlined development processes.</li>
+        </ul>
+        <h3>
+            SOFTWARE DEVELOPER
+            APPLE INC., 2022 - 2024
+        </h3>
+        <ul>
+            <li>Engineered innovative solutions for [prominent Apple products or initiatives], enhancing [specific functionalities or user experiences].</li>
+            <li>Played a key role in the integration of [cutting-edge technologies], ensuring seamless operation and user satisfaction.</li>
+            <li>Received recognition for contributions to [noteworthy project accomplishments or milestones].</li>
+            <li>Demonstrated expertise in scalable software design and performance optimization strategies.</li>
+        </ul>
+        <h2>XYZ University</h2>
+        <h3>
+            CTUET University
+            Expected Graduation: May 2025
+        </h3>
+        <ul>
+            <li>Bachelor of Science in Computer Science</li>
+            <li>Relevant coursework: Data Structures and Algorithms, Software Engineering, Database Systems</li>
+            <li>GPA: 3.8</li>
+        </ul>
+    </div>
+</body>
 </html>
