@@ -1,1 +1,96 @@
 # Thongtincv
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        div{
+            float: left;
+            height: 965px;
+            padding: 20px;
+            padding-right: 30px;
+        }
+        #tt{
+            position: relative;
+            left: 220px;
+            background-color: aquamarine;
+            width: 210px;
+            
+            
+        }
+        #ttchinh{
+            position: relative;
+            left: 220px;
+            background-color: rgb(200, 241, 241);
+            width: 450px;
+            padding-left: 30px;
+            
+        }
+        #pic{
+            border-radius: 50%;
+            border: 2px solid;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="tt">
+        <img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t39.30808-1/437763616_122093537978289727_5215775961374652097_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dNQOZ-WEVUMQ7kNvgGJ_0Jb&_nc_ht=scontent.fvca1-1.fna&oh=00_AYA8fmubzrpMxr3ADV5YA7CBVwRKBKDgcG00MYG5bBBDpg&oe=66759089" alt="" id="pic">
+        <h3 style="font-size: 130%;">Nguyễn Hoàng Thanh</h3>
+        <h2>CONTACT</h2>
+        <ul>
+            <li>Address: Xóm chùa ba láng, khu Thạnh Trị, New York, TP Cần Thơ</li>
+            <li>Phone number: 0949623766</li>
+            <li>Email: @gmail.com</li>
+        </ul>
+        <h2>SUMARY</h2>
+        <p>I am a motivated IT professional with a strong background in computer science and proven experience at FPT Corporation and Apple Inc. I specialize in [mention specific areas or technologies], bringing a blend of technical expertise and innovative thinking to deliver impactful solutions. I thrive in dynamic environments where I can contribute my skills to drive meaningful projects forward.</p>
+        <h2>SKILL</h2>
+        <p>Communication</p>
+        <p>Confidence</p>
+        <p>Problem-solving</p>
+        <p>Time management</p>
+        <p>Soft</p>
+    </div>
+    <div id="ttchinh">
+        <h2>PROFESSIONAL PROFILE</h2>
+        <p>Talented and proactive Computer Science student with a passion for innovation and technology. Proficient in programming languages such as [mention relevant languages], with a solid understanding of software development principles and methodologies. Adept at problem-solving and collaborating in team environments to deliver impactful solutions. Known for strong analytical skills and a quick grasp of new technologies, poised to contribute effectively to future technological advancements.</p>
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <h3>
+            SOFTWARE ENGINEER
+            FPT CORPORATION, 2020 - 2022
+        </h3>
+        <ul>
+            <li>Spearheaded development projects leveraging [specific technologies or frameworks], contributing to [specific achievements or milestones].</li>
+            <li>Collaborated closely with cross-functional teams to design and implement robust software solutions.</li>
+            <li>Led the optimization of [specific processes or systems], resulting in [quantifiable improvements].</li>
+            <li>Acquired proficiency in Agile methodologies and streamlined development processes.</li>
+        </ul>
+        <h3>
+            SOFTWARE DEVELOPER
+            APPLE INC., 2022 - 2024
+        </h3>
+        <ul>
+            <li>Engineered innovative solutions for [prominent Apple products or initiatives], enhancing [specific functionalities or user experiences].</li>
+            <li>Played a key role in the integration of [cutting-edge technologies], ensuring seamless operation and user satisfaction.</li>
+            <li>Received recognition for contributions to [noteworthy project accomplishments or milestones].</li>
+            <li>Demonstrated expertise in scalable software design and performance optimization strategies.</li>
+        </ul>
+        <h2>XYZ University</h2>
+        <h3>
+            CTUET University
+            Expected Graduation: May 2025
+        </h3>
+        <ul>
+            <li>Bachelor of Science in Computer Science</li>
+            <li>Relevant coursework: Data Structures and Algorithms, Software Engineering, Database Systems</li>
+            <li>GPA: 3.8</li>
+        </ul>
+    </div>
+</body>
+</html>
