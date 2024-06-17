@@ -1,0 +1,14 @@
+:root{
+    --text-color: red;
+    --text-size: 80px;
+}
+
+h1{
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+h2{
+    --my-text: green;
+    color:var(--my-text)
+}

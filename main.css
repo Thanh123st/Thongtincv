@@ -1,0 +1,24 @@
+#toto {
+    color:red;
+    font-size: 30px;
+}
+
+.second {
+    color:rgb(85, 19, 19);
+    font-size: 30px;
+}
+
+
+
+h1{
+    color: violet !important;
+}
+
+h1{
+    color: red;
+}
+
+
+h1 {
+    color:rgb(57, 28, 113);
+}
